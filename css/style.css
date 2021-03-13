@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.text {
+  /*font-family: "Pacifico", cursive;*/
+  font-family: "Fredoka One", cursive;
+  font-size: 8em;
+  text-align: center;
+ color: #fff; 
+}
+.letra {
+  font-family: "Pacifico", cursive;
+  color: #fff;
+}
+.text-c {
+  /*font-family: "Pacifico", cursive;*/
+  font-family: "Fredoka One", cursive;
+  font-size: 8em;
+  text-align: center;
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+ 
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text
+}
+.subtitle {
+  font-family: "Fredoka One", cursive;
+  color: #fff;
+}
+body {
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+  font-weight: bold;
+}
+.container {
+  position: relative;
+  display: flex;
+  width: 1100px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contenedor {
+  position: relative;
+  display: flex;
+  width: 1100px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .card {
+  max-width: 300px;
+  height: 215px;
+  border-radius: 20px;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 0.5);
+  transition: 0.2s ease-in-out;
+  border: solid;
+}
+.contenedor .carta {
+  max-width: 300px;
+  height: 215px;
+  border-radius: 20px;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 0.5);
+  transition: 0.2s ease-in-out;
+  border: solid;
+}
+.container .card:hover {
+  height: 500px;
+}
+
+.container .card .imgBx {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 0.2);
+}
+
+.container .card .imgBx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.container .card .content {
+  position: relative;
+  margin-top: 140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -70px;
+}
+
+.flecha_abajo {
+  transform: rotate(90deg);
+  position: relative;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sub {
+  text-align: center;
+  border-radius: 20px;
+  border: solid;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sub:hover {
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.imge {
+  height: 700px;
+  background: url("../img/0240.jpg");
+}
+.elementos{
+    width: 100%;
+    height: 500px;
+    background: #ced0d7;
+}
+.h{
+    height: 600px;
+}
